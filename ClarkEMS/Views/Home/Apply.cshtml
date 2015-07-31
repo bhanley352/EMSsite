@@ -1,0 +1,435 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Join Today</h1>
+<p>This form must be filled out and submitted in one sitting, if you close or refresh the page you will lose your progress</p>
+<form>
+    <fieldset>
+        <h3>Applicant Information</h3>
+        <div class="form-group col-lg-4">
+            <label>Name</label>
+            <input type="text" class="form-control" id="inputName" value="">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>Date of Birth</label>
+            <input type="text" class="form-control" id="inputDOB" value="" placeholder="MM/DD/YYYY">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>Email</label>
+            <input type="text" class="form-control" id="inputEmail" value="">
+        </div>
+
+        <div class="form-group col-lg-12">
+            <label>Address</label>
+            <input type="text" class="form-control" id="inputAddress" value="">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputCity" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputState" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Zip</label>
+            <input type="text" class="form-control" id="inputZip" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Home Phone</label>
+            <input type="text" class="form-control" id="inputHome" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Work Phone</label>
+            <input type="text" class="form-control" id="inputWork" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Cell Phone</label>
+            <input type="text" class="form-control" id="inputCell" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Driver's License #</label>
+            <input type="text" class="form-control" id="inputDriver" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State Issued</label>
+            <input type="text" class="form-control" id="inputDState" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Points on Liscense</label>
+            <input type="text" class="form-control" id="inputPoints" value="">
+        </div>
+        <h3>Emergency Contacts</h3>
+        <div class="form-group col-lg-6">
+            <label>Name</label>
+            <input type="text" class="form-control" id="inputContactName1" value="">
+        </div>
+
+        <div class="form-group col-lg-6">
+            <label>Relationship</label>
+            <input type="text" class="form-control" id="inputContactRelationship1" value="" placeholder="">
+        </div>
+
+        <div class="form-group col-lg-12">
+            <label>Address</label>
+            <input type="text" class="form-control" id="inputContactAddress1" value="">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputContactCity1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputContactState1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Zip</label>
+            <input type="text" class="form-control" id="inputContactZip1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Home Phone</label>
+            <input type="text" class="form-control" id="inputContactHome1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Work Phone</label>
+            <input type="text" class="form-control" id="inputContactWork1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Cell Phone</label>
+            <input type="text" class="form-control" id="inputContactCell1" value="">
+        </div>
+        <h4>Contact #2</h4>
+        <div class="form-group col-lg-6">
+            <label>Name</label>
+            <input type="text" class="form-control" id="inputContactName2" value="">
+        </div>
+
+        <div class="form-group col-lg-6">
+            <label>Relationship</label>
+            <input type="text" class="form-control" id="inputContactRelationship2" value="" placeholder="">
+        </div>
+
+        <div class="form-group col-lg-12">
+            <label>Address</label>
+            <input type="text" class="form-control" id="inputContactAddress2" value="">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputContactCity2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputContactState2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Zip</label>
+            <input type="text" class="form-control" id="inputContactZip2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Home Phone</label>
+            <input type="text" class="form-control" id="inputContactHome2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Work Phone</label>
+            <input type="text" class="form-control" id="inputContactWork2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Cell Phone</label>
+            <input type="text" class="form-control" id="inputContactCell2" value="">
+        </div>
+        <h3>References (1 Personal 2 Professional)</h3>
+        <div class="form-group col-lg-6">
+            <label>Name</label>
+            <input type="text" class="form-control" id="inputReferenceName1" value="">
+        </div>
+
+        <div class="form-group col-lg-6">
+            <label>Relationship</label>
+            <input type="text" class="form-control" id="inputReferenceRelationship1" value="" placeholder="">
+        </div>
+
+        <div class="form-group col-lg-12">
+            <label>Address</label>
+            <input type="text" class="form-control" id="inputReferenceAddress1" value="">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputReferenceCity1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputReferenceState1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Zip</label>
+            <input type="text" class="form-control" id="inputReferenceZip1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Home Phone</label>
+            <input type="text" class="form-control" id="inputReferenceHome1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Work Phone</label>
+            <input type="text" class="form-control" id="inputReferenceWork1" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Cell Phone</label>
+            <input type="text" class="form-control" id="inputReferenceCell1" value="">
+        </div>
+        <h4>Reference #2</h4>
+        <div class="form-group col-lg-6">
+            <label>Name</label>
+            <input type="text" class="form-control" id="inputReferenceName2" value="">
+        </div>
+
+        <div class="form-group col-lg-6">
+            <label>Relationship</label>
+            <input type="text" class="form-control" id="inputReferenceRelationship2" value="" placeholder="">
+        </div>
+
+        <div class="form-group col-lg-12">
+            <label>Address</label>
+            <input type="text" class="form-control" id="inputReferenceAddress2" value="">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputReferenceCity2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputReferenceState2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Zip</label>
+            <input type="text" class="form-control" id="inputReferenceZip2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Home Phone</label>
+            <input type="text" class="form-control" id="inputReferenceHome2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Work Phone</label>
+            <input type="text" class="form-control" id="inputReferenceWork2" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Cell Phone</label>
+            <input type="text" class="form-control" id="inputReferenceCell2" value="">
+        </div>
+        <h4>Reference #3</h4>
+        <div class="form-group col-lg-6">
+            <label>Name</label>
+            <input type="text" class="form-control" id="inputReferenceName3" value="">
+        </div>
+
+        <div class="form-group col-lg-6">
+            <label>Relationship</label>
+            <input type="text" class="form-control" id="inputReferenceRelationship3" value="" placeholder="">
+        </div>
+
+        <div class="form-group col-lg-12">
+            <label>Address</label>
+            <input type="text" class="form-control" id="inputReferenceAddress3" value="">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputReferenceCity3" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputReferenceState3" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Zip</label>
+            <input type="text" class="form-control" id="inputReferenceZip3" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Home Phone</label>
+            <input type="text" class="form-control" id="inputReferenceHome3" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Work Phone</label>
+            <input type="text" class="form-control" id="inputReferenceWork3" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Cell Phone</label>
+            <input type="text" class="form-control" id="inputReferenceCell3" value="">
+        </div>
+        <h3>Medical Training</h3>
+        <div class="form-group col-lg-12">
+        <label>Prior Experience</label>
+            <textarea class="form-control" rows="3" id="Experience"></textarea>
+            <span class="help-block">First Aid/CPR/EMS experience please describe and give dates</span>
+        </div>
+        <div class="form-group col-lg-4">
+            <label>CPR Certification</label>
+            <input type="text" class="form-control" id="inputCPR" value="">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>Expires</label>
+            <input type="text" class="form-control" id="inputCPRdate" value="" placeholder="MM/DD/YYYY">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>First Aid Certification</label>
+            <input type="text" class="form-control" id="inputFirstAid" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>NJ EMT #</label>
+            <input type="text" class="form-control" id="inputEMT" value="">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>Expires</label>
+            <input type="text" class="form-control" id="inputEMTdate" value="" placeholder="MM/DD/YYYY">
+        </div>
+
+        <div class="form-group col-lg-4">
+            <label>NREMT#</label>
+            <input type="text" class="form-control" id="inputNREMT" value="">
+        </div>
+
+        <div class="form-group col-lg-12">
+            <label>Other Certifications</label>
+            <textarea class="form-control" rows="3" id="certification"></textarea>
+        </div>
+        <h3>Education Background</h3>
+        <div class="form-group col-lg-12">
+            <label>High School Name</label>
+            <input type="text" class="form-control" id="inputHS" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputHSCity" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputHSState" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Graduation Year</label>
+            <input type="text" class="form-control" id="inputHSGrad" value="" placeholder="YYYY">
+        </div>
+
+        <div class="form-group col-lg-12">
+            <label>College Name</label>
+            <input type="text" class="form-control" id="inputCollege" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputCollegeCity" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputCollegeState" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Graduation Year</label>
+            <input type="text" class="form-control" id="inputCollegeGrad" value="" placeholder="YYYY">
+        </div>
+        <div class="form-group col-lg-12">
+            <label>Major</label>
+            <input type="text" class="form-control" id="inputCollegeMajor" value="">
+        </div>
+        <div class="form-group col-lg-12">
+            <label>Grad School Name</label>
+            <input type="text" class="form-control" id="inputGrad" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputGradCity" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputGradState" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Graduation Year</label>
+            <input type="text" class="form-control" id="inputGradGrad" value="" placeholder="YYYY">
+        </div>
+        <div class="form-group col-lg-12">
+            <label>Major</label>
+            <input type="text" class="form-control" id="inputGradMajor" value="">
+        </div>
+        <div class="form-group col-lg-12">
+            <label>Technical School Name</label>
+            <input type="text" class="form-control" id="inputTech" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputTechCity" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputTechState" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Graduation Year</label>
+            <input type="text" class="form-control" id="inputTechGrad" value="" placeholder="YYYY">
+        </div>
+        <div class="form-group col-lg-12">
+            <label>Major</label>
+            <input type="text" class="form-control" id="inputTechMajor" value="">
+        </div>
+        <div class="form-group col-lg-12">
+            <label>Other School Name</label>
+            <input type="text" class="form-control" id="inputOther" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>City</label>
+            <input type="text" class="form-control" id="inputOtherCity" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>State</label>
+            <input type="text" class="form-control" id="inputOtherState" value="">
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Graduation Year</label>
+            <input type="text" class="form-control" id="inputOtherGrad" value="" placeholder="YYYY">
+        </div>
+        <div class="form-group col-lg-12">
+            <label>Major</label>
+            <input type="text" class="form-control" id="inputOtherMajor" value="">
+        </div>
+        <h3>Other Information</h3>
+        <div class="form-group col-lg-4">
+            <label>What languages are you fluent in?</label>
+            <textarea class="form-control" rows="3" id="languages"></textarea>
+        </div>
+        <div class="form-group col-lg-8">
+            <label>Do you suffer from any physical conditions that would require accomodation? Please explain.</label>
+            <textarea class="form-control" rows="3" id="accomodation"></textarea>
+        </div>
+        <div class="form-group col-lg-4">
+            <label>Why do you want to join the squad?</label>
+            <textarea class="form-control" rows="3" id="essay1"></textarea>
+        </div>
+        <div class="form-group col-lg-8">
+            <label>Describe a situation you were in that required teamwork and quick thinking</label>
+            <textarea class="form-control" rows="3" id="essay2"></textarea>
+        </div>
+        <div class="form-group col-lg-6">
+            <label>Any other skills/interests/hobbies that you feel will benefit CVES?</label>
+            <textarea class="form-control" rows="3" id="miscDetails"></textarea>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-lg-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <span class="help-block">By submitting this form I authorize the designated individual(s) from the Clark Volunteer Emergency Squad to verify the
+information provided on this application as to my credibility, employment and educational history.</span>
+            </div>
+        </div>
+    </fieldset>
+</form>
+
